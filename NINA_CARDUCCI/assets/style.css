@@ -12,7 +12,7 @@ a {
     text-decoration: none;
 }
 
-header {
+top-header {
 	background-color: white;
 	position: sticky;
 	top:0;
