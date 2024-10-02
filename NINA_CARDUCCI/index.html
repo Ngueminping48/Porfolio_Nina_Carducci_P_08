@@ -32,8 +32,8 @@
             <link rel="canonical" href="https://ninacarducci.github.io/" />
 
 
-           <!--SCHEMA.ORG--->  
-          <!-- RICH SNIPPETS -->
+           
+          <!-- RICH SNIPPETS (Données structurées Schema.org)-->
             <script type="application/ld+json">
                 {
                     "@context": "https://schema.org",
@@ -74,7 +74,7 @@
                                 "itemOffered" : {
                                     "@type" : "Service",
                                     "name" : "Shooting photo",
-                                    "description" : "Anniversaire, naissance, mariage... je me déplace en Île-de-France pour capturer vos moments les plus précieux et les rendre éternels. Le prix est à la demi-journée et inclut le matériel et le déplacement."
+                                    "description" : "Anniversaire, naissance, mariage... deplacement en Île-de-France pour capturer vos moments les plus précieux et les rendre éternels. Le prix est à la demi-journée et inclut le matériel et le déplacement."
                                 }
                             },
                             {
@@ -110,7 +110,7 @@
         </head>
 
         <body>
-        <!-- Header Section -->
+        <!-- HEADER SECTION -->
         <header class="top-header">
           <h1 class="name">Nina Carducci</h1>
           <nav>   
@@ -129,13 +129,14 @@
                   </li>
                   <li>
                       <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
-                          <img src="assets/images/instagram.png" alt="icône du site Instagram">
+                          <img src="assets/images/instagram.png" alt="Icône d'Instagram, mettant en avant un appareil photo stylisé avec un dégradé de couleurs vives, symbolisant la créativité et le partage visuel au sein d'une communauté dynamique.">
                       </a>
                   </li>
               </ul>
           </nav>
       </header>
-      <!-- Carousel Section -->
+
+      <!-- CAROUSEL SECTION -->
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -144,13 +145,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/images/slider/person-walking-photo.webp" srcset="./assets/images/slider/person-walking-photo.webp 1920w, ./assets/images/slider/person-walking-photo-tablet.webp 1000w, ./assets/images/slider/person-walking-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" alt="Photo en plongée d'une personne en costume sur bandes noires et blanches">
+                <img src="./assets/images/slider/person-walking-photo.webp" srcset="./assets/images/slider/person-walking-photo.webp 1920w, ./assets/images/slider/person-walking-photo-tablet.webp 1000w, ./assets/images/slider/person-walking-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" 
+                alt="Photo en plongée d'une personne en costume, élégamment posée sur un motif de bandes noires et blanches, mettant en valeur le contraste entre le style raffiné et l'esthétique graphique de l'environnement." loading="lazy">
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/slider/festival-photo.webp" srcset="./assets/images/slider/festival-photo.webp 1920w, ./assets/images/slider/festival-photo-tablet.webp 1000w, ./assets/images/slider/festival-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" alt="Photo en immersion du public à un festival" loading="lazy">
+                <img src="./assets/images/slider/festival-photo.webp" srcset="./assets/images/slider/festival-photo.webp 1920w, ./assets/images/slider/festival-photo-tablet.webp 1000w, ./assets/images/slider/festival-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" 
+                alt="Photo immersive du public à un festival, où l'énergie collective se manifeste à travers des visages enthousiastes, des mouvements joyeux et des couleurs vibrantes, créant une atmosphère de fête inoubliable." loading="lazy">
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/slider/wedding-photo.webp" srcset="./assets/images/slider/wedding-photo.webp 1920w, ./assets/images/slider/wedding-photo-tablet.webp 1000w, ./assets/images/slider/wedding-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" alt="Photo du marié qui embrasse la mariée" loading="lazy">
+                <img src="./assets/images/slider/wedding-photo.webp" srcset="./assets/images/slider/wedding-photo.webp 1920w, ./assets/images/slider/wedding-photo-tablet.webp 1000w, ./assets/images/slider/wedding-photo-mobile.webp 500w" sizes="100vw" class="d-block w-100" 
+                alt="Photo touchante du marié embrassant tendrement la mariée, capturant l'amour pur et la complicité d'un instant magique lors de leur journée spéciale" loading="lazy">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -162,12 +166,13 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- main Section -->
+
+    <!-- MAIN SECTION -->
     <main>
-      <!-- About Section -->
+      <!-- ABOUT SECTION -->
      <div id="about">
             <div class="picture left">
-                <img src="./assets/images/nina-portrait-photo.webp" alt="portrait de Nina Carducci" loading="lazy">
+                <img src="./assets/images/nina-portrait-photo.webp" alt="portrait de la photographe Nina Carducci" loading="lazy">
             </div>
             <div id="about-me">
                 <h2 class="about-me__title">La photographie et moi</h2>
@@ -177,21 +182,30 @@
             </div>
         </div>
 
-      <!-- Gallery Section -->
-      <!-- GALLERY -->
+      <!-- GALLERY SECTION -->
+    
       <section id="gallery">
         <h2 class="title">Mon portfolio</h2>
         <div class="container py-3">
             <div class="gallery">
-                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-photo.webp" alt="contre-plongée d'un concert depuis la fosse" loading="lazy">
-                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/businessman-photo.webp" alt="portrait d'un homme d'affaire" loading="lazy">
-                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/smiling-employees-photo.webp" alt="focus sur deux femmes en réunion" loading="lazy">
-                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hands-of-bride-and-groom-photo.webp" alt="gros plan des mains des mariés" loading="lazy">
-                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/man-portrait-photo.webp" alt="portrait d'un homme qui ferme les yeux" loading="lazy">
-                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/bride-and-groom-photo.webp" alt="photo prise sur le vif des mariés qui rient devant un palmier" loading="lazy">
-                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/woman-portrait-photo.webp" alt="vue d'une femme à travers un grillage" loading="lazy">
-                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-singer-photo.webp" alt="photo du chanteur lors d'un concert" loading="lazy">
-                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/woman-with-computer-photo.webp" alt="photo d'une femme qui travaille sur ordinateur et qui rit" loading="lazy">
+                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-photo.webp" 
+                alt="capte l'énergie vibrante du concert, plongeant l'observateur au cœur d'un instant mêlant lumière et émotion." loading="lazy">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/businessman-photo.webp" 
+                alt=" homme d'affaires au regard déterminé, incarnant l'élégance et la force tranquille et de la réussite." loading="lazy">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/smiling-employees-photo.webp" 
+                alt="femmes en pleine réunion, échangeant avec assurance et complicité, reflétant à la fois leur expertise et leur leadership dans un environnement professionnel dynamique" loading="lazy">
+                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hands-of-bride-and-groom-photo.webp" 
+                alt="Gros plan émouvant des mains des mariés entrelacées, symbole de leur union et promesse d'un avenir partagé, capturant toute la tendresse et l'engagement du moment." loading="lazy">
+                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/man-portrait-photo.webp" 
+                alt="Portrait d'un homme les yeux fermés, le visage apaisé, capturant un instant de profonde introspection, comme suspendu entre sérénité et réflexion." loading="lazy">
+                <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/bride-and-groom-photo.webp" 
+                alt="Photo spontanée des mariés éclatant de rire devant un palmier, immortalisant un moment de joie naturelle et de complicité sous le soleil tropical." loading="lazy">
+                <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/woman-portrait-photo.webp" 
+                alt="Vue poétique d'une femme à travers un grillage, son regard captivant filtré par les mailles, symbolisant à la fois mystère et liberté entravée." loading="lazy">
+                <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-singer-photo.webp" 
+                alt="Photo saisissante du chanteur en pleine performance, capturant toute l'intensité et l'émotion de l'instant, sous les projecteurs vibrants d'un concert électrique." loading="lazy">
+                <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/woman-with-computer-photo.webp" 
+                alt="Photo joyeuse d'une femme travaillant sur son ordinateur, son rire éclatant illuminant son visage, témoignant de sa passion et de son plaisir à accomplir ses tâches." loading="lazy">
             </div>
         </div>
 
@@ -206,8 +220,8 @@
     </section>
 
 
-      <!-- Services Section -->
-      <!-- SERVICES -->
+      <!-- SERVICES SECTION -->
+    
         <section id="services">
             <h2 class="title">Mes services</h2>
             <div class="container">
@@ -255,9 +269,8 @@
             </figure>
         </div>
 
-      <!-- Contact Section -->
+      <!-- CONTACT SECTION -->
 
-      <!-- CONTACT -->
         <section id="contact">
             <div class="container">
                 <div class="form-container">
@@ -275,30 +288,32 @@
                 </div>
 
                 <div class="picture right">
-                    <img src="./assets/images/camera-photo.webp" alt="zoom sur un appareil photo" loading="lazy">
+                    <img src="./assets/images/camera-photo.webp" alt="appareil photo, révélant la précision de son objectif et l’ingéniosité de son design, symbole de la créativité et de l'art de capturer des instants précieux" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <!-- FOOTER -->
+        <!-- SECTION FOOTER -->
 
         <footer>
             <p>Tous droits réservés</p>
             <div class="social-link--footer">
                 <a href="#">
-                    <img src="./assets/images/facebook.png" alt="icône facebook">
+                    <img src="./assets/images/facebook.png" alt="Icône Facebook emblématique, représentant la lettre 'f' stylisée en blanc sur un fond bleu, symbole de connexion et d'interaction sociale à l'échelle mondiale.">
                 </a>
                 <a href="#">
-                    <img src="./assets/images/linkedin.png" alt="icône linkedin">
+                    <img src="./assets/images/linkedin.png" alt="Icône LinkedIn distinctive, présentant la lettre 'in' en blanc sur un fond bleu profond, symbole de réseau professionnel et de connexions d'affaires.">
                 </a>
                 <a href="#">
-                    <img src="./assets/images/twitter.png" alt="icône twitter" class="icon--border">
+                    <img src="./assets/images/twitter.png" alt="Icône Twitter reconnaissable, illustrant un oiseau bleu stylisé en plein vol, représentant la liberté d'expression et la connexion instantanée dans le monde des réseaux sociaux." class="icon--border">
                 </a>
             </div>
         </footer>
 
   <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="./assets/scripts.min.js"></script>
+  <script src="./assets/scripts.min.js" defer></script>
+
 </body>
+
 </html>
